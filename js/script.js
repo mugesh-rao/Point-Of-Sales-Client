@@ -29,7 +29,7 @@ function initApp() {
     firstTime: localStorage.getItem("first_time") === null,
     activeMenu: 'pos',
     loadingSampleData: false,
-    moneys: [2000, 5000, 10000, 20000, 50000, 100000],
+    moneys: [200, 500, 1000, 2000, 5000, 10000],
     products: [],
     keyword: "",
     cart: [],
